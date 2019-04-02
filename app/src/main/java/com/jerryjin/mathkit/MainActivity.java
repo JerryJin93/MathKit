@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Square square = new Square(5, new Point(0, 0), Square.LEFT_BOTTOM);
 
-        result.setText(square.getPath().toString());
+        result.setText(square.toString());
 
     }
 }

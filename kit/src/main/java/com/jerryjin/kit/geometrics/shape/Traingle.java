@@ -2,12 +2,17 @@ package com.jerryjin.kit.geometrics.shape;
 
 import android.graphics.Path;
 
+import com.jerryjin.kit.geometrics.point.Point;
+
+import androidx.annotation.NonNull;
+
 /**
  * Author: Jerry
  * Generated at: 2019/3/16 10:54 AM
  * GitHub: https://github.com/JerryJin93
  * Blog:
  * WeChat: enGrave93
+ * Version: 0.0.1
  * Description:
  */
 public class Traingle extends Shape {
@@ -27,6 +32,11 @@ public class Traingle extends Shape {
         this.edgeA = edgeA;
         this.edgeB = edgeB;
         this.edgeC = edgeC;
+    }
+
+    @Override
+    protected void innerClose(@NonNull Point anyPoint, int pointPos) {
+
     }
 
     @Override

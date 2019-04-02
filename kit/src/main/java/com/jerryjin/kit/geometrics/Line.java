@@ -6,6 +6,7 @@ package com.jerryjin.kit.geometrics;
  * GitHub: https://github.com/JerryJin93
  * Blog:
  * WeChat: enGrave93
+ * Version: 0.0.1
  * Description:
  */
 public class Line {

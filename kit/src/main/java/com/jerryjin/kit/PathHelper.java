@@ -11,6 +11,7 @@ import com.jerryjin.kit.geometrics.point.Point;
  * GitHub: https://github.com/JerryJin93
  * Blog:
  * WeChat: enGrave93
+ * Version: 0.0.1
  * Description:
  */
 public class PathHelper {
